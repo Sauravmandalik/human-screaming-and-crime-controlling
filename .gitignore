@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+.env
+recordings/
+dataset/
+models/
+.ipynb_checkpoints/
