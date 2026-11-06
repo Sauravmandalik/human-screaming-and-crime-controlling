@@ -6,3 +6,5 @@ recordings/
 dataset/
 models/
 .ipynb_checkpoints/
+
+.venv/
