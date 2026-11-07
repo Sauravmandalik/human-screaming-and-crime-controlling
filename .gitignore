@@ -1,10 +1,16 @@
+venv/
 __pycache__/
 *.pyc
-venv/
+
 .env
+
 recordings/
 dataset/
 models/
-.ipynb_checkpoints/
 
+.ipynb_checkpoints/
+data/
+.venv/
+
+data/
 .venv/
