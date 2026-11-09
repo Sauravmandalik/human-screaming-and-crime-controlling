@@ -10,8 +10,8 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Load extracted features and labels
-X = np.load("data/features.npy")
-y = np.load("data/labels.npy")
+X = np.load("data/features_v2.npy")
+y = np.load("data/labels_v2.npy")
 
 print("Dataset shape:", X.shape)
 print("Labels shape:", y.shape)

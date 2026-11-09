@@ -1,16 +1,20 @@
-venv/
+# Audio datasets
+dataset/
+Scream.tar.gz
+
+# Generated features
+data/
+
+# Trained models
+models/
+
+# Python cache
 __pycache__/
 *.pyc
 
-.env
-
-recordings/
-dataset/
-models/
-
-.ipynb_checkpoints/
-data/
+# Virtual environments
+venv/
 .venv/
 
-data/
-.venv/
+# IDE files
+.vscode/

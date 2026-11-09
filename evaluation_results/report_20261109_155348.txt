@@ -1,0 +1,58 @@
+HUMAN SCREAM DETECTION - EVALUATION REPORT
+==================================================
+
+Evaluation date and time: 2026-11-09 15:53:48
+Model: models/scream_detector.pkl
+Test folder: test_audio
+Total recordings: 141
+Scream recordings: 67
+Non-scream recordings: 74
+
+FEATURE INFORMATION
+--------------------------------------------------
+Sample rate: 22050 Hz
+MFCC coefficients: 20
+Features per recording: 40
+
+DECISION SCORE ANALYSIS
+--------------------------------------------------
+Minimum: -2.389
+Maximum: 1.711
+Average: -0.090
+
+EVALUATION RESULTS
+--------------------------------------------------
+Accuracy: 100.00%
+False positives: 0
+False negatives: 0
+
+CONFUSION MATRIX
+Rows = Actual [Non-scream, Scream]
+Columns = Predicted [Non-scream, Scream]
+[[74  0]
+ [ 0 67]]
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+  Non-scream       1.00      1.00      1.00        74
+      Scream       1.00      1.00      1.00        67
+
+    accuracy                           1.00       141
+   macro avg       1.00      1.00      1.00       141
+weighted avg       1.00      1.00      1.00       141
+
+FALSE POSITIVES
+--------------------------------------------------
+No false positives.
+
+FALSE NEGATIVES
+--------------------------------------------------
+No false negatives.
+
+REVIEW FOLDER RECORDINGS
+--------------------------------------------------
+These recordings are excluded from evaluation because they are stored outside the test class folders.
+nonspeech7k_219649_4_0.wav
+nonspeech7k_220046_4_0.wav
+nonspeech7k_343768_4_0.wav
