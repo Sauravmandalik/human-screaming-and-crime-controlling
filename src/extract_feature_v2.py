@@ -16,9 +16,11 @@ filenames = []
 
 categories = {
     "scream": 1,
-    "non_scream": 0
+    "non_scream": 0,
+    "normal_speech": 0,
+    "laughing": 0,
+    "shouting": 0
 }
-
 for category, label in categories.items():
 
     folder_path = os.path.join(DATASET_PATH, category)

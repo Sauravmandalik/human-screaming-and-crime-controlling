@@ -1,20 +1,27 @@
-# Audio datasets
+# Audio datasets and recordings
 dataset/
+external_datasets/
+recordings/
+test_audio/
 Scream.tar.gz
 
-# Generated features
+# Generated data and analysis
 data/
+analysis/
+inspection/
+evaluation_results/
 
 # Trained models
 models/
 
-# Python cache
+# Python cache and environments
 __pycache__/
 *.pyc
-
-# Virtual environments
 venv/
 .venv/
 
 # IDE files
 .vscode/
+
+# Backup scripts
+*_backup.py
