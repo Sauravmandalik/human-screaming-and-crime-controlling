@@ -25,3 +25,4 @@ venv/
 
 # Backup scripts
 *_backup.py
+*.bak
